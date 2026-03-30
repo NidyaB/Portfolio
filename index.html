@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidya | Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <a href="#home" class="logo">Nidya<span>.</span></a>
+
+        <div class="menu-icon" id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#internship">Internship</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="home reveal" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nidya Sri Kamatchi B</h1>
+            <h3>And I'm a <span class="typing-text"></span><span class="cursor">|</span></h3>
+            <p>Aspiring Developer with a strong focus on frontend development and QA automation,
+                dedicated to building efficient and user-friendly applications.</p>
+            <div class="btn-box">
+                <a href="resume.pdf" class="btn" download>Download Resume</a>
+                <a href="https://github.com/yourusername" target="_blank" class="btn btn-secondary"><i
+                        class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/nidya-sri-kamatchi-b" target="_blank" class="btn btn-secondary"><i
+                        class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <img src="profile.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                I am an aspiring Software Developer, QA Automation Engineer, and Frontend Developer with a strong
+                foundation in building responsive web applications and ensuring software quality.
+
+                I have hands-on experience in frontend development and software testing, including writing test cases,
+                identifying UI issues, and working with automation tools like Playwright.
+
+                I am passionate about developing scalable applications, improving user experience, and delivering
+                reliable, high-performance software solutions.
+            </p>
+
+            <div class="about-details">
+                <div class="detail-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Dindigul, Tamil Nadu, India</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per css">
+                        <span class="tooltip">85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per js">
+                        <span class="tooltip">70%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per python">
+                        <span class="tooltip">65%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fas fa-vial"></i>
+                    <h3>Playwright</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per playwright">
+                        <span class="tooltip">75%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per sql">
+                        <span class="tooltip">70%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-title">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-per github">
+                        <span class="tooltip">85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects reveal" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-box">
+                <i class="fas fa-laptop-code project-icon"></i>
+                <div class="project-info">
+                    <h4>Symposium Website</h4>
+                    <p>Developed a responsive symposium website using HTML, CSS, JavaScript, and Bootstrap.
+                        Improved UI/UX, ensured mobile compatibility, and optimized performance for better user
+                        experience.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <i class="fas fa-user-circle project-icon"></i>
+                <div class="project-info">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>Designed and developed a fully responsive personal portfolio website to showcase my skills,
+                        projects, and resume.
+                        Implemented modern UI design, smooth animations, and a downloadable resume feature.
+                        Deployed the website using GitHub Pages for public access.</p>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <i class="fas fa-microchip project-icon"></i>
+                <div class="project-info">
+                    <h4>Apnea Alarm</h4>
+                    <span class="project-tag">IoT Project</span>
+                    <p>Developed an IoT-based apnea alarm system using Arduino. Monitors oxygen levels and triggers
+                        alert when threshold drops. Focused on real-time monitoring and alert system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section class="internship reveal" id="internship">
+        <h2 class="heading">My <span>Internship</span></h2>
+
+        <div class="timeline">
+            <!-- Internship 1 -->
+            <div class="timeline-container left-container">
+                <i class="fas fa-briefcase"></i>
+                <div class="timeline-box">
+                    <div class="timeline-content">
+                        <h3>AuraWeb Digital</h3>
+                        <h4>Frontend & QA Intern</h4>
+                        <ul>
+                            <li>Fixed UI issues and improved performance</li>
+                            <li>Generated test data (CSV/JSON)</li>
+                            <li>Executed positive and negative test cases</li>
+                            <li>Supported Playwright automation testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Internship 2 -->
+            <div class="timeline-container right-container">
+                <i class="fas fa-briefcase"></i>
+                <div class="timeline-box">
+                    <div class="timeline-content">
+                        <h3>NSIC Chennai</h3>
+                        <h4>Frontend Intern</h4>
+                        <ul>
+                            <li>Learned responsive web development using HTML, CSS, JavaScript, and Bootstrap</li>
+                            <li>Gained knowledge in UI/UX design and cross-device compatibility</li>
+                            <li>Understood debugging and improving frontend performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out to me for any opportunities or collaborations.</p>
+
+                <div class="contact-methods">
+                    <div class="method">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:nidyasri2005@gmail.com">nidyasri2005@gmail.com</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" placeholder="Mobile Number">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <button class="btn" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Nidya. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
